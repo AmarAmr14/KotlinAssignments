@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">KotlinAssignments</string>
+    <string name="splashscreen">SplashScreen</string>
+    <string name="routelogo">routeLogo</string>
+    <string name="gifimageview">gifImageView</string>
+    <string name="there_is_no_contacts_added_here">There is No Contacts Added Here</string>
+    <string name="button">+</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="enter_user_email">Enter User Email</string>
+    <string name="enter_user_phone">Enter User Phone</string>
+    <string name="enter_user">Enter user</string>
+    <string name="delete">delete</string>
+    <string name="leo_messi">Leo Messi</string>
+    <string name="leomessi_route_gmail_com">leomessi.route@gmail.com</string>
+    <string name="phoneic">phoneIC</string>
+    <string name="_2000000000">+2000000000</string>
+    <string name="emailic">emailIC</string>
+</resources>

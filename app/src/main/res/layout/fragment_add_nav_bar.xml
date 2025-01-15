@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".AddNavBarFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:backgroundTint="@color/light_Background"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="50dp"
+                android:autofillHints="username"
+                android:background="@drawable/edit_text_background"
+                android:hint="@string/enter_user_name"
+                android:inputType="textPersonName"
+                android:padding="18dp"
+                android:textColor="@color/textColor"
+                android:textColorHint="@color/textColor" />
+
+            <EditText
+                android:id="@+id/editUserEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints="emailAddress"
+                android:background="@drawable/edit_text_background"
+                android:hint="@string/enter_user_email"
+                android:inputType="textEmailAddress"
+                android:padding="18dp"
+                android:textColor="@color/textColor"
+                android:textColorHint="@color/textColor" />
+
+            <EditText
+                android:id="@+id/editUserPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints="phone"
+                android:background="@drawable/edit_text_background"
+                android:hint="@string/enter_user_phone"
+                android:inputType="phone"
+                android:padding="18dp"
+                android:textColor="@color/textColor"
+                android:textColorHint="@color/textColor" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/enterUserMB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:backgroundTint="@color/textColor"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/enter_user"
+                android:textColor="@color/background"
+                android:textSize="32sp"
+
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
